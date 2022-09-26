@@ -422,8 +422,47 @@ padding: 50px;
 }
 
 /* Media Queries */
- 
-   
+@media (min-width: 0px)
+   and (max-width: 600px) {
+  body {
+    background-color: rgb(247, 194, 182);
+  }
+  .media-query {
+    background-color: rgb(198, 236, 255);
+    color: rgb(45, 48, 114);
+  }
+}
+
+@media (min-width: 600px)
+   and (max-width: 1200px) {
+  h3 {
+    background-color: rgb(229, 202, 250);
+  }
+    body {
+    background-color: rgb(206, 223, 255);
+    color: rgb(93, 93, 93);
+  }
+  .media-query {
+    background-color: rgb(125, 98, 98);
+    color: rgb(238, 236, 236);
+  }
+}
+
+@media (min-width: 1200px)
+   and (max-width: 1800px) {
+    h2{
+        color:rgb(27, 88, 65)
+    }
+    body {
+    background-color: rgb(217, 237, 209);
+    color: rgb(19, 17, 17);
+  }
+  .media-query {
+    background-color: blue;
+    color: rgb(249, 245, 245);
+  }
+}
+
  
 
 
