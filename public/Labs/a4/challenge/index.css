@@ -18,6 +18,19 @@
     color: rgb(110, 118, 125);
 }
 
+.wd-nav-icons {
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    font-size:20px;
+    padding-right: 10px;
+}
+
+.wd-nav-text {
+    color:white;
+    padding-left:10px;
+}
+
 .wd-nav-active {
     color: white;
     text-decoration: underline;
@@ -90,4 +103,9 @@
     color:rgb(110, 118, 125);
     font-size: 12px;
     text-decoration: None;
+}
+
+.wd-follow {
+    color: white;
+    font-size: 15px;
 }

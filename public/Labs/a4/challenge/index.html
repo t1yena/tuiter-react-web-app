@@ -19,53 +19,53 @@
                     </div>
                     <a class="list-group-item list-group-item-action bg-black" href="#">
                         <div>
-                            <i class="fas fa-home fa-inverse"></i>
-                            <span class ="d-none d-xl-inline text-white">Home</span>
+                            <i class="fas fa-home fa-inverse wd-nav-icons"></i>
+                            <span class ="d-none d-xl-inline wd-nav-text">Home</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action bg-black" href="#">
                         <div>
-                            <i class="fas fa-hashtag fa-inverse"></i>
-                            <span class ="d-none d-xl-inline text-white">Explore</span>
+                            <i class="fas fa-hashtag fa-inverse wd-nav-icons"></i>
+                            <span class ="d-none d-xl-inline wd-nav-text">Explore</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action bg-black" href="#">
                         <div>
-                            <i class="fas fa-bell fa-inverse"></i>
-                            <span class ="d-none d-xl-inline text-white">Notifications</span>
+                            <i class="far fa-bell fa-inverse wd-nav-icons"></i>
+                            <span class ="d-none d-xl-inline wd-nav-text">Notifications</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action bg-black" href="#">
                         <div>
-                            <i class="fas fa-envelope fa-inverse"></i>
-                            <span class ="d-none d-xl-inline text-white">Messages</span>
+                            <i class="far fa-envelope fa-inverse wd-nav-icons"></i>
+                            <span class ="d-none d-xl-inline wd-nav-text">Messages</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action bg-black" href="#">
                         <div>
-                            <i class="fas fa-bookmark fa-inverse"></i>
-                            <span class ="d-none d-xl-inline text-white">Bookmarks</span>
+                            <i class="far fa-bookmark fa-inverse wd-nav-icons"></i>
+                            <span class ="d-none d-xl-inline wd-nav-text">Bookmarks</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action bg-black" href="#">
                         <div>
-                            <i class="fas fa-list-ul fa-inverse"></i>
-                            <span class ="d-none d-xl-inline text-white">Lists</span>
+                            <i class="fas fa-list-ul fa-inverse wd-nav-icons"></i>
+                            <span class ="d-none d-xl-inline  wd-nav-text">Lists</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action bg-black" href="#">
                         <div>
-                            <i class="fas fa-user fa-inverse"></i>
-                            <span class ="d-none d-xl-inline text-white">Profile</span>
+                            <i class="far fa-user fa-inverse wd-nav-icons"></i>
+                            <span class ="d-none d-xl-inline wd-nav-text">Profile</span>
                         </div>
                     </a>
                     <a class="list-group-item list-group-item-action bg-black" href="#">
                         <div>
-                            <span class="fa-stack wd-stacked">
-                                <i class="fas fa-circle fa-stack-1x fa-inverse"></i>
-                                <i class="fas fa-ellipsis-h fa-stack-1x wd-2xs"></i>
+                            <span class="fa-stack wd-nav-icons">
+                                <i class="far fa-circle fa-stack-1x fa-inverse"></i>
+                                <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse wd-2xs"></i>
                             </span>
-                            <span class ="d-none d-xl-inline text-white">More</span>
+                            <span class ="d-none d-xl-inline wd-nav-text">More</span>
                         </div>
                     </a>
                 </ul>
@@ -112,9 +112,9 @@
                 </div>
                 
                 
-                <div class="wd-border">
+                <div class="wd-border position-relative">
                     <img src="../../../images/myUniverse.png" width="100%"/>
-                    <div>
+                    <div class="position-absolute bottom-0 left-0">
                         <span class="wd-post-white">Music • Last Night</span>
                         <h4 class="text-white fw-bolder">BTS and Coldplay release their new song, My Universe
                             <i class="fas fa-globe-americas" style="color:tomato"c></i>
@@ -180,14 +180,16 @@
         <!-- Who to follow -->
             <div class="col-4 d-none d-lg-block pt-1">
                 <ul class="list-group">
-                    <li class="list-group-item bg-dark fw-bolder text-white">Who to follow</li>
+                    <li class="list-group-item bg-dark text-white">
+                        <h5 class="fw-bold">Who to follow</h5>
+                    </li>
                     <li class="list-group-item bg-dark">
                         <div class="row">
                             <div class="col-2">
                                 <img class="wd-image-round" src="../../../images/bee.png"/>
                             </div>
                             <div class="col-6 text-nowrap">
-                                <div class="fw-bolder text-white">
+                                <div class="fw-bold wd-follow">
                                     The Babylon Bee
                                     <span class="fa-stack wd-stacked">
                                         <i class="fas fa-certificate fa-stack-1x fa-inverse"></i>
@@ -197,7 +199,7 @@
                                 <div class="text-secondary">@TheBabylonBee</div>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-primary w-100 btn-sm rounded-pill">
+                                <button class="btn btn-primary w-100 btn-sm fw-bolder rounded-pill btn-light">
                                     Follow
                                 </button>
                             </div>
@@ -210,7 +212,7 @@
                                 <img class="wd-image-round" src="../../../images/relativitySpace.webp"/>
                             </div>
                             <div class="col-6 text-nowrap">
-                                <div class="fw-bolder text-white">
+                                <div class="fw-bold wd-follow">
                                     Relativity Space
                                     <span class="fa-stack wd-stacked">
                                         <i class="fas fa-certificate fa-stack-1x fa-inverse"></i>
@@ -220,7 +222,7 @@
                                 <div class="text-secondary">@relativityspace</div>
                             </div>
                             <div class="col-4">
-                                <button class="btn btn-primary w-100 btn-sm rounded-pill">
+                                <button class="btn btn-primary w-100 btn-sm rounded-pill fw-bolder btn-light">
                                     Follow
                                 </button>
                             </div>
