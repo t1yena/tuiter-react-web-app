@@ -11,6 +11,10 @@
     padding-bottom: 12px;
 }
 
+.wd-search-icon {
+    bottom: 11px;
+    left: 15px;
+}
 
 .wd-rounded-search-bar {
     display: flex;
@@ -146,4 +150,13 @@
     color: rgb(12,109,253);
     top:3px;
     right:3px;
+}
+
+.wd-image{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
 }
