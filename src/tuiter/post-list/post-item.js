@@ -33,7 +33,7 @@ const PostItem = (
         postText = 
             <div>
                 {beforeLink}
-                <a href="#"> {link}</a>
+                <a href="/#"> {link}</a>
                 {afterLink}
             </div>
         
@@ -42,19 +42,19 @@ const PostItem = (
     var postContent = ''
     if (`${post.link}`.length === 0) {
         postContent = 
-        <img className = "wd-image pt-2 w-100" src={`/images/${post.image}`}/>
+        <img className = "wd-image pt-2 w-100" src={`/images/${post.image}`} alt="post"/>
         
     } else {  
         postContent = 
         <div>
             <div className="pt-2">
-            <img className = "wd-link-image wd-border-light w-100" src={`/images/${post.linkImage}`}/>   
+            <img className = "wd-link-image wd-border-light w-100" src={`/images/${post.linkImage}`} alt="post link"/>   
             </div>
             <div className = "wd-rounded-bottom-border-light p-2">
                 <div className="pb-1">{post.linkTitle}</div>
                 <div className="text-dark">{post.linkSummary}</div>
                 <i className="bi bi-link-45deg"></i>
-                <a className = "text-dark" href="#">{post.linkName}</a>
+                <a className = "text-dark" href="/#">{post.linkName}</a>
             </div>
         </div>
         
@@ -64,7 +64,7 @@ const PostItem = (
     <li className="list-group-item">
     <div className="row">
         <div className="col-1 p-1">
-            <img className="wd-image-round" src={`/images/${post.avatarIcon}`}/>
+            <img className="wd-image-round" src={`/images/${post.avatarIcon}`} alt="avatar"/>
         </div>
         <div className="col-11">
             <div>
