@@ -1,0 +1,54 @@
+.wd-profile-nudge-up {
+    bottom: -60px;
+    left: 25px;
+ }
+ 
+.wd-banner {
+    width: 104.3%;
+    height: 200px;
+    object-fit: cover;
+    margin-left: -12px;
+}
+
+.wd-top-margin {
+    margin-top:60px;
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-ft20 {
+    font-size: 20px;
+}
+
+.wd-ft14 {
+    font-size: 14px;
+}
+
+.wd-align-left {
+    justify-content: start;
+}
+
+.wd-border {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(221, 216, 216);
+    padding: 12px;
+}
+
+.wd-button {
+    border-color: rgb(221, 216, 216);
+    border-style: solid;
+    font-weight: bold;
+    color: black;
+}
+
+.wd-button:hover {
+    border-color: rgb(221, 216, 216);
+    border-style: solid;
+    font-weight: bold;
+    background-color: rgb(221, 216, 216);
+    color: black;
+}
