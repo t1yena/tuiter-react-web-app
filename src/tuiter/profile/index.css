@@ -18,6 +18,11 @@
     font-weight: bold;
 }
 
+.wd-no-link {
+    text-decoration: none;
+    color:black;
+}
+
 .wd-ft20 {
     font-size: 20px;
 }
@@ -40,15 +45,38 @@
 
 .wd-button {
     border-color: rgb(221, 216, 216);
+    border-width: 1.5px;
+    background-color: white;
     border-style: solid;
-    font-weight: bold;
+    font-weight:600;
     color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .wd-button:hover {
-    border-color: rgb(221, 216, 216);
-    border-style: solid;
-    font-weight: bold;
     background-color: rgb(221, 216, 216);
     color: black;
+}
+
+
+.wd-input-group {
+    position: relative;
+    
+}
+
+.wd-input-label {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.wd-input-text {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: rgb(221, 216, 216);
+    padding: 30px 5px 5px 5px;
+    width:100%;
 }

@@ -29,7 +29,7 @@ const ProfileComponent = (
                             bi-arrow-left-short fs-2 position-relative"></i>
             </div>
             <div className="col-11 position-relative">
-                <div className="row">
+                <div className="row pb-1">
                     <div className="wd-bold wd-ft20">{profile.firstName} {profile.lastName}</div>
                     <span className="wd-ft14 text-secondary">
                         {profile.tuitCount} Tuits
@@ -44,7 +44,7 @@ const ProfileComponent = (
             <img src="/images/minion.jpg" className="rounded-circle " width = {120} alt="avatar"/>
             </div>
         </div>
-        <button className="col btn btn-sm wd-button rounded-pill float-end">Edit profile</button>
+        <a className="col wd-button btn-sm rounded-pill float-end" href="/tuiter/edit-profile" role="button">Edit profile</a>
         
         <div className="wd-top-margin">
             <span className="wd-ft20 wd-bold">{profile.firstName} {profile.lastName}</span>
