@@ -31,9 +31,9 @@ const EditProfileComponent = () =>
       <>
       <div className="wd-border">
         <div className="row border-light">
-            <a className="col-1 wd-no-link" href="/tuiter/profile">
-                <i className="wd-bottom-4 float-end bi bi-x fs-2 position-relative"></i>
-            </a>
+            <button className="btn btn-lg col-1 p-0 m-0" onClick={navigate("/tuiter/profile")}>
+                <i className="bi bi-x"></i>
+            </button>
             <div className="col-11 position-relative">
                 <div className="pb-1">
                     <span className="wd-bold wd-ft20">Edit Profile</span>
