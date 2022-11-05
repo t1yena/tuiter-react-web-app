@@ -31,7 +31,7 @@ const EditProfileComponent = () =>
       <>
       <div className="wd-border">
         <div className="row border-light">
-            <button className="btn btn-lg col-1 p-0 m-0" onClick={navigate("/tuiter/profile")}>
+            <button className="btn btn-lg col-1 p-0 m-0" onClick={()=>navigate("/tuiter/profile")}>
                 <i className="bi bi-x"></i>
             </button>
             <div className="col-11 position-relative">
