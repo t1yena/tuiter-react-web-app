@@ -39,9 +39,9 @@ const ProfileComponent = (
         </div>
         {/* banner pic */}
         <div className="position-relative mb-2">
-            <img src="/images/starship.jpg" className="wd-banner" alt="banner"/>
+            <img src={`/images/${profile.bannerPicture}`} className="wd-banner" alt="banner"/>
             <div className="position-absolute wd-profile-nudge-up">
-            <img src="/images/minion.jpg" className="rounded-circle " width = {120} alt="avatar"/>
+            <img src={`/images/${profile.profilePicture}`} className="rounded-circle " width = {120} alt="avatar"/>
             </div>
         </div>
         <a className="col wd-button btn-sm rounded-pill float-end" href="/tuiter/edit-profile" role="button">Edit profile</a>

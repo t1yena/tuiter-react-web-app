@@ -1,14 +1,14 @@
 {
-    "firstName": "Jose", 
-    "lastName": "Annunziato", 
-    "handle": "@jannunzi",
-    "profilePicture": "jose.png", 	
-    "bannerPicture": "polyglot.png",
-    "bio": "Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.",
-    "website": "youtube.com/webdevtv",
+    "firstName": "Yena", 
+    "lastName": "Shin", 
+    "handle": "@yena",
+    "profilePicture": "minion.jpg", 	
+    "bannerPicture": "flower.jpg",
+    "bio": "Student, Software Engineer. I like cats and spicy food.",
+    "website": "youtube.com",
     "location": "Boston, MA",	
-    "dateOfBirth": "7/7/1968",	
-    "dateJoined": "4/2009",
-    "followingCount": 340,	
-    "followersCount": 223
+    "dateOfBirth": "1/1/1997",	
+    "dateJoined": "11/5/2022",
+    "followingCount": 321,	
+    "followersCount": 567
 }

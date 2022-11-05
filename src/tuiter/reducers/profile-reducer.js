@@ -12,6 +12,8 @@ const profileSlice = createSlice({
           state.bio = action.payload.bio;
           state.location = action.payload.location;
           state.website = action.payload.website;
+        //   state.dateOfBirth =action.payload.dateOfBirth;
+
         }
     }   
 });
