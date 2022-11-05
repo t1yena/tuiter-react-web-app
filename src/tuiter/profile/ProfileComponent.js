@@ -1,5 +1,7 @@
 import React from "react";
 import "./index.css"
+import { useNavigate } from "react-router";
+
 
 const ProfileComponent = (
     {
@@ -20,6 +22,8 @@ const ProfileComponent = (
         }
     }
 ) => {
+    const navigate= useNavigate();
+
     return(
       <>
       <div className="wd-border">
@@ -44,8 +48,13 @@ const ProfileComponent = (
             <img src={`/images/${profile.profilePicture}`} className="rounded-circle " width = {120} alt="avatar"/>
             </div>
         </div>
-        <a className="col wd-button btn-sm rounded-pill float-end" href="/tuiter/edit-profile" role="button">Edit profile</a>
-        
+        {/* <a className="col wd-button btn-sm rounded-pill float-end" href="/tuiter/edit-profile" role="button">Edit profile</a> */}
+        <button 
+            className="col wd-button btn-sm rounded-pill float-end" 
+            onClick={()=>navigate("/tuiter/edit-profile")}>
+            Edit Profile
+        </button>
+
         <div className="wd-top-margin">
             <span className="wd-ft20 wd-bold">{profile.firstName} {profile.lastName}</span>
             <div className="text-secondary"> {profile.handle}</div>
