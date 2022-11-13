@@ -3,7 +3,7 @@ const PostSummaryItem = (
  {
    post = {
      "topic": "Space",
-     "userName": "SpaceX",
+     "username": "SpaceX",
      "time": "2h",
      "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
      "image": "tesla.png"
@@ -15,7 +15,7 @@ const PostSummaryItem = (
    <div className="row">
      <div className="col-10">
        <div>
-          <span className="col text-secondary"> {post.userName}</span>
+          <span className="col text-secondary"> {post.username}</span>
           <i className="bi bi-dot text-secondary"></i>
           <span className="col text-secondary">{post.time}</span>
         </div>
