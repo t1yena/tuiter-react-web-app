@@ -45,7 +45,7 @@ const TuitStats = (
             <i className="bi bi-hand-thumbs-down me-2"
                onClick={() => dispatch(updateTuitThunk({
                 ...tuit,
-                dislikes: tuit.dislikes + 1}))}></i>
+                dislikes: (post.dislikes === undefined ? 1 : post.dislikes + 1)}))}></i>
             {tuit.dislikes}
         </div>
         <div className="col">
